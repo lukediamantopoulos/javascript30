@@ -38,5 +38,41 @@ $classes[6] = [
 	'link' => '06_ajax_type_ahead.php'
 ];
 
+$classes[7] = [
+	'name' => 'Array Cardio 2',
+	'summary' => 'Index() - Every() - Some()',
+	'link' => '07_array_cardio_2.php'
+];
+
+$classes[8] = [
+	'name' => 'Canvas',
+	'summary' => 'Canvas - Style - Vanilla',
+	'link' => '08_canvas.php'
+];
+
+$classes[9] = [
+	'name' => 'Dev Tools',
+	'summary' => 'console - log - time',
+	'link' => '09_dev_tools.php'
+];
+
+$classes[10] = [
+	'name' => 'Multiple Checkboxes',
+	'summary' => 'Shift - Click - Multiple',
+	'link' => '10_multiple_checkboxes.php'
+];
+
+$classes[11] = [
+	'name' => 'Video Player',
+	'summary' => 'Styles - API - Video',
+	'link' => '11_video_player.php'
+];
+
+$classes[12] = [
+	'name' => 'Key Detection',
+	'summary' => 'Konami Code - Script',
+	'link' => '12_key_detection.php'
+];
+
 
 ?>

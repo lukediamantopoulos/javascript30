@@ -9,6 +9,7 @@ function get_day_html( $item ) {
 				</div>
 				<h2 class='day-name'>" . $item['name'] . "</h2>
 				<p class='day-summary'>" . $item['summary'] . "</p>
+				<span id='day-bg'></span>
 			</a>
 		</div>";
 	return $output;
