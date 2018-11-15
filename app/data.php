@@ -74,5 +74,35 @@ $classes[12] = [
 	'link' => '12_key_detection.php'
 ];
 
+$classes[13] = [
+	'name' => 'Slide on Scroll',
+	'summary' => 'Scroll - Document - Variables',
+	'link' => '13_slide_on_scroll.php'
+];
+
+$classes[14] = [
+	'name' => 'Reference vs. Copy',
+	'summary' => 'Reference - Copy - Data',
+	'link' => '14_reference_copy.php'
+];
+
+$classes[15] = [
+	'name' => 'Storage & Delegation ',
+	'summary' => 'Reference - Copy - Data',
+	'link' => '15_storage_delegation.php'
+];
+
+$classes[16] = [
+	'name' => 'Mouse Move Effect',
+	'summary' => 'Mouse Event - Variables',
+	'link' => '16_mousemove_effect.php'
+];
+
+$classes[17] = [
+	'name' => 'Sorting w/o articles',
+	'summary' => 'Sorting',
+	'link' => '17_sorting.php'
+];
+
 
 ?>

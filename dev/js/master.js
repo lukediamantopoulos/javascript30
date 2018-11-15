@@ -1,17 +1,9 @@
 // Basic Functions
 //-----------------------------------------------------------
 
-function gE(id){
-  return document.getElementById(id);
-}
-
-function gCA(cl){
-  return document.querySelectorAll(classes);
-}
-
-function gCA(cl){
-  return document.querySelectorAll(classes);
-}
+function gE(id){ return document.getElementById(id); }
+function gCA(cl){ return document.querySelectorAll(classes); }
+function gCA(cl){ return document.querySelectorAll(classes); }
 
 //-----------------------------------------------------------
 // Find height of Element
@@ -23,7 +15,6 @@ function getHeight(element) {
   var el = gE(element);
   return elHeight = el.offsetHeight;
 }
-
 
 //-----------------------------------------------------------
 // Lesson Number
@@ -38,12 +29,12 @@ for ( let i = 0; i < classes.length; i++) {
       classNumber.innerHTML = i+1;
 }
 
-
 //-----------------------------------------------------------
 // Nav Size on scroll
 //-----------------------------------------------------------
 
 var nav = gE('nav');
+var body = document.querySelector('body');
 var newHeight;
 
 function checkNav() {
@@ -70,9 +61,7 @@ function randomColor(oldColor) {
 
   if (newColor === oldColor) {
     randomColor( oldColor ); // Run function again
-    console.log('colors ');
   } else {
-    console.log(newColor);
     return newColor;
   }
 }
@@ -82,8 +71,6 @@ window.addEventListener('keyup', (e) => {
   // Check if color is the same
   let currentColor = getComputedStyle(document.body).getPropertyValue('--c_accent');
   let color = randomColor(currentColor);
-
-  console.log(pressed);
 
   pressed.push(e.key);
   pressed.splice(-code.length -1, pressed.length - code.length); // Removes a number each time
@@ -197,7 +184,6 @@ classes.forEach( day => {
 
     // elTransition( this, side, 'exit');
   });
-
 })
 
 
